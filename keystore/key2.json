@@ -1,0 +1,24 @@
+{
+  "mnemonic": [
+    "raccoon",
+    "thumb",
+    "rain",
+    "item",
+    "client",
+    "wreck",
+    "what",
+    "mobile",
+    "vibrant",
+    "copy",
+    "another",
+    "dinner",
+    "project",
+    "gasp",
+    "fetch"
+  ],
+  "secret": "9c01586c19171ba91d78d5f8fff89caeeeb7846b",
+  "amount": "7237539032",
+  "pkh": "tz1U5E7U225tYk5uuNDpQpcQ2e4hCmekBadh",
+  "password": "KZ4fUwhTLk",
+  "email": "rbelxoqk.qvjsnsnm@tezos.example.org"
+}

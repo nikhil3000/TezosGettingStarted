@@ -6,12 +6,12 @@ printf "
  Test Summary : 
 "
 echo " ------------------";
-./utils/smartpy-cli/SmartPy.sh test ./contract/demo.py ./test-build;
+./utils/smartpy-cli/SmartPy.sh test ./contract/bettingGame.py ./test-build;
 printf "
  Test Scenarios :
 ";
 echo " -------------------"
-cat ./test-build/Welcome_interpreted/scenario-interpreter-log.txt;
+cat ./test-build/Running the application_interpreted/scenario-interpreter-log.txt;
 printf "
 
 "

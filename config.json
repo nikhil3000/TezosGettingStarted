@@ -1,26 +1,26 @@
 {
-    "compile_config": {
-        "contract_name": "demo.py",
-        "class_name": "MyContract(12, 123)"
-    },
-    "test_config": {
-        "contract_name": "demo.py",
-        "test_name": "Welcome"
-    },
-    "deploy_config": {
-        "node": "https://testnet.tezster.tech",
-        "contract_code": "demo_compiled.tz",
-        "contract_storage": "demo_storage_init.tz",
-        "key": "test_key1",
-        "amount": 1,
-        "delegate_address": "",
-        "fee": 100000,
-        "derivation_path": "",
-        "storage_limit": 10000,
-        "gas_limit": 500000
-    },
-    "contract_interaction_config": {
-        "node": "https://testnet.tezster.tech",
-        "api-key": ""
-    }
+  "compile_config": {
+    "contract_name": "bettingGame.py",
+    "class_name": "BettingGame(sp.address('tz1PCVSQfsHmrKRgCdLhrN8Yanb5mwEL8rxu'))"
+  },
+  "test_config": {
+    "contract_name": "bettingGame.py",
+    "test_name": "Running the application"
+  },
+  "deploy_config": {
+    "node": "https://testnet-tezos.giganode.io",
+    "contract_code": "bettingGame_compiled.tz",
+    "contract_storage": "bettingGame_storage_init.tz",
+    "key": "key1",
+    "amount": 1,
+    "delegate_address": "",
+    "fee": 100000,
+    "derivation_path": "",
+    "storage_limit": 10000,
+    "gas_limit": 500000
+  },
+  "contract_interaction_config": {
+    "node": "https://testnet-tezos.giganode.io",
+    "api-key": ""
+  }
 }
